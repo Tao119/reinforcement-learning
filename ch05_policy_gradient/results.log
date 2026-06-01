@@ -1,0 +1,14 @@
+=== REINFORCE (Policy Gradient) on 4×4 GridWorld ===
+Policy: softmax(W @ one_hot(state))  — pure NumPy
+Episodes=2000, γ=0.99, α=0.02, baseline=running EMA
+
+Avg return (last 50 episodes): 0.845
+Avg return (first 50 episodes): -0.674
+
+=== Greedy Policy (from learned softmax) ===
+ →  |  →  |  →  |  ↓ 
+ ↓  |  X  |  →  |  ↓ 
+ ↓  |  →  |  →  |  ↓ 
+ →  |  →  |  →  |  G 
+
+Plot saved → /Users/matsumura-tao/sources/imai-lab/reinforcement-learning/ch05_policy_gradient/pg_results.png

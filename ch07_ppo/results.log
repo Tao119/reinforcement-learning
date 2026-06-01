@@ -1,0 +1,19 @@
+=== PPO-Clip on 4×4 GridWorld ===
+Trajectory length=64, K=4 epochs, eps=0.2, gamma=0.99
+
+update   100: ep_reward=-0.904  clip_frac=0.000  entropy=1.290
+update   200: ep_reward=-1.115  clip_frac=0.000  entropy=1.217
+update   300: ep_reward=-1.224  clip_frac=0.000  entropy=1.188
+update   400: ep_reward=-1.195  clip_frac=0.000  entropy=1.170
+update   500: ep_reward=-1.109  clip_frac=0.000  entropy=1.164
+update   600: ep_reward=-1.199  clip_frac=0.000  entropy=1.162
+update   700: ep_reward=-1.186  clip_frac=0.000  entropy=1.155
+update   800: ep_reward=-1.134  clip_frac=0.000  entropy=1.153
+update   900: ep_reward=-1.228  clip_frac=0.000  entropy=1.143
+update  1000: ep_reward=-1.236  clip_frac=0.000  entropy=1.139
+
+Total episodes: 3676
+Avg reward (last 50 episodes): -1.241
+Avg clip fraction: 0.000
+Final entropy: 1.139
+Plot saved → /Users/matsumura-tao/sources/imai-lab/reinforcement-learning/ch07_ppo/ppo_results.png

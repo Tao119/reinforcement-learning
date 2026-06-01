@@ -1,0 +1,21 @@
+=== A2C: Advantage Actor-Critic on 4×4 GridWorld ===
+Actor:  state→32→ReLU→n_actions→Softmax
+Critic: state→32→ReLU→1  (V function)
+Update: n-step returns (n=5), entropy bonus, epsilon-greedy warmup
+
+Note: on small GridWorlds with sparse + terminal hole rewards,
+tabular Q-learning outperforms neural A2C because exact Bellman
+propagation avoids function-approximation error in the critic.
+
+A2C avg reward (last 100): -1.117
+Q-Learning avg reward (last 100): 0.948
+REINFORCE avg reward (last 100): 0.836
+
+=== Performance Summary (last 100 episodes) ===
+Method             Mean      Std      Max
+------------------------------------------
+Q-Learning        0.948    0.005    0.950
+REINFORCE         0.836    0.195    0.902
+A2C              -1.117    0.221    0.680
+
+Plot saved → /Users/matsumura-tao/sources/imai-lab/reinforcement-learning/ch06_actor_critic/a2c_results.png
