@@ -1,0 +1,53 @@
+{
+  "algorithms": [
+    {
+      "name": "Epsilon-Greedy",
+      "task": "Bandit",
+      "metric": "total_reward",
+      "value": 694.0
+    },
+    {
+      "name": "Thompson Sampling",
+      "task": "Bandit",
+      "metric": "regret",
+      "value": 64.81
+    },
+    {
+      "name": "Q-Learning",
+      "task": "GridWorld",
+      "metric": "avg_reward",
+      "value": 0.949
+    },
+    {
+      "name": "DQN",
+      "task": "GridWorld",
+      "metric": "avg_reward",
+      "value": 0.928
+    },
+    {
+      "name": "REINFORCE",
+      "task": "GridWorld",
+      "metric": "avg_reward",
+      "value": 0.836
+    },
+    {
+      "name": "A2C",
+      "task": "GridWorld",
+      "metric": "avg_reward",
+      "value": -1.117
+    },
+    {
+      "name": "Dyna-Q",
+      "task": "GridWorld",
+      "metric": "real_steps",
+      "value": 2472,
+      "note": "vs Q-Learning 2887 (15% better)"
+    }
+  ],
+  "key_findings": [
+    "Thompson Sampling beats Epsilon-Greedy: regret 64.8 vs 166.5",
+    "Q-Learning tops all GridWorld agents: avg_reward=0.949",
+    "Dyna-Q reduces real-world steps by 15% (model-based planning helps)",
+    "A2C unstable on small GridWorld (small state space hurts actor-critic)"
+  ]
+}
