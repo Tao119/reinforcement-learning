@@ -1,0 +1,12 @@
+=== Dyna-Q vs Q-Learning on 4×4 GridWorld ===
+Episodes=500, n_sim=10, alpha=0.1, gamma=0.99
+
+Q-Learning  avg reward (last 20): 0.849
+Dyna-Q      avg reward (last 20): 0.847
+Q-Learning  total real steps: 4845
+Dyna-Q      total real steps: 4361
+
+Convergence episode (avg>0.5 over 20): Q-Learning=246  Dyna-Q=251
+Real steps at convergence: Q-Learning=2887  Dyna-Q=2472
+
+Plot saved → /Users/matsumura-tao/sources/imai-lab/reinforcement-learning/ch08_model_based/dynaq_results.png
