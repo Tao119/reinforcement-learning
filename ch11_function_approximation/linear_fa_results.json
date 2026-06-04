@@ -1,0 +1,14 @@
+{
+  "Tabular": {
+    "avg_last200_mse": 0.082023
+  },
+  "Poly (deg2)": {
+    "avg_last200_mse": 0.040918
+  },
+  "RBF (n=25)": {
+    "avg_last200_mse": 0.035998
+  },
+  "GTD2": {
+    "avg_last200_mse": 0.038592
+  }
+}

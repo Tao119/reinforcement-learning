@@ -1,0 +1,32 @@
+{
+  "gaussian_UCB1": {
+    "final_regret": 225.58
+  },
+  "gaussian_UCB-V": {
+    "final_regret": 231.01
+  },
+  "gaussian_EXP3": {
+    "final_regret": 1249.68
+  },
+  "gaussian_LinUCB (ctx=5)": {
+    "final_regret": 2916.58
+  },
+  "nonstationary_UCB1": {
+    "final_regret": 268.23
+  },
+  "nonstationary_UCB-V": {
+    "final_regret": 211.76
+  },
+  "nonstationary_EXP3": {
+    "final_regret": 4404.39
+  },
+  "bernoulli_UCB1": {
+    "final_regret": 490.91
+  },
+  "bernoulli_KL-UCB": {
+    "final_regret": 64.44
+  },
+  "bernoulli_EXP3": {
+    "final_regret": 476.72
+  }
+}

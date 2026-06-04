@@ -1,0 +1,26 @@
+{
+  "Q-Learning": {
+    "avg_last100_return": 0.8242
+  },
+  "SARSA": {
+    "avg_last100_return": 0.8448
+  },
+  "Expected SARSA": {
+    "avg_last100_return": 0.8081
+  },
+  "Double Q-Learning": {
+    "avg_last100_return": 0.8657
+  },
+  "nstep_n1": {
+    "avg_last100_return": -1.3363
+  },
+  "nstep_n3": {
+    "avg_last100_return": 0.7962
+  },
+  "nstep_n5": {
+    "avg_last100_return": 0.6795
+  },
+  "nstep_n10": {
+    "avg_last100_return": 0.8445
+  }
+}
